@@ -1,2 +1,6 @@
 # Philosofers42
 Philosophers 42" project is to learn and apply threading and mutex concepts in C by solving the Dining Philosophers Problem.
+
+Philosophers 42 refers to a variant or implementation of the classic "Dining Philosophers Problem," a well-known concurrency problem in computer science. In this problem, a group of philosophers sits around a circular table with a fork between each pair of adjacent philosophers. Philosophers alternate between thinking and eating. However, they need both forks to eat, which can lead to potential issues such as deadlock (when no philosopher can eat because they are all holding one fork) or starvation (when a philosopher never gets a chance to eat).
+
+In this variant, referred to as "philo 42," it is likely an implementation or adaptation of the Dining Philosophers Problem where the focus is on resolving these concurrency challenges, often using mechanisms like mutexes, semaphores, or other synchronization primitives to prevent deadlocks and ensure fairness in the philosophers' access to the forks. The number "42" may signify a specific version, a limit on the number of philosophers, or a nod to the broader problem-solving or philosophical references within computer science.
